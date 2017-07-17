@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">App Monitor</string>
+    <string name="dialog_ask_for_permission">We need you to turn on access to usage data to display it</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="set_permission_button">Set permission</string>
+    <string name="never_used">Never used</string>
+    <string name="last_used">Last used %s</string>
+    <string name="total_foreground_time">%s minutes on screen</string>
+
+</resources>
