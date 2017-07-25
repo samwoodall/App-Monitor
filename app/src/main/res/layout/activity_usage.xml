@@ -6,6 +6,14 @@
     android:layout_gravity="center"
     tools:context="com.samwoodall.appusagemonitor.UsageActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ToolBarStyle" />
+
     <TextView
         android:id="@+id/set_permission_text"
         android:layout_width="wrap_content"
@@ -32,6 +40,7 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/usage_recycler_view"
+        android:layout_below="@id/toolbar"
         android:scrollbars="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

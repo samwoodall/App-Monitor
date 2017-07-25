@@ -1,11 +1,31 @@
 <resources>
     <string name="app_name">App Monitor</string>
     <string name="dialog_ask_for_permission">We need you to turn on access to usage data to display it</string>
+    <string name="dialog_permission_explanation">We need the usage permission in order to access your app usage.
+        We won\'t do anything else with this permission or your data</string>
+    <string name="dialog_set_time_range">Set the usage range</string>
+    <string name="dialog_sort_by">Sort by</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
     <string name="set_permission_button">Set permission</string>
     <string name="never_used">Never used</string>
     <string name="last_used">Last used %s</string>
     <string name="total_foreground_time">%s minutes on screen</string>
+    <string name="why_permission">Why usage data?</string>
+    <string name="set_time_range">Set time range</string>
+    <string name="sort">Sort by</string>
+
+    <string-array name="string_array_date_range">
+        <item>One day</item>
+        <item>One week</item>
+        <item>One month</item>
+        <item>One year</item>
+        <item>All time</item>
+    </string-array>
+
+    <string-array name="string_array_sort">
+        <item>By time used</item>
+        <item>By most recent</item>
+    </string-array>
 
 </resources>
